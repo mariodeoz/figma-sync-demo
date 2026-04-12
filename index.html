@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Minimal Design Sync Demo</title>
+    <link rel="stylesheet" href="css/tokens.css">
+    <style>
+        body {
+            background-color: var(--color-background, #ffffff);
+            color: var(--color-text, #333333);
+            font-family: system-ui, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .card {
+            background-color: var(--color-surface, #f0f0f0);
+            padding: 2rem;
+            border-radius: var(--radius-main, 8px);
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            border: 2px solid var(--color-primary, #007bff);
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Sincronizado con Figma</h1>
+        <p>Este color de borde y fondo vienen directamente de los tokens.</p>
+    </div>
+</body>
+</html>
