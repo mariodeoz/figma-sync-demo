@@ -14,7 +14,7 @@ En tu repositorio de GitHub, añade dos **Secrets** (Configuración -> Secrets -
 
 ## Paso 3: Disparar la Sincronización
 1.  Ve a la pestaña **"Actions"** de tu repositorio.
-2.  Selecciona el workflow **"Design Sync"**.
+2.  Selecciona el workflow **"Main"**.
 3.  Dale a **"Run Workflow"**.
 
 El resultado se verá reflejado automáticamente en `css/tokens.css`.
