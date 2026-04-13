@@ -54,8 +54,6 @@ jobs:
         run: npx figmagic --token ${{ secrets.FIGMA_TOKEN }} --url ${{ secrets.FIGMA_URL }} --versionName ${{ github.event.inputs.version }}
       - name: Commit generated files
         run: |
-          git config user.name "mariodeoz"
-          git config user.email "mcorvalan@tecnoaccion.com.ar"
           git add css/tokens.css
           git diff --cached --quiet || git commit -m "Update design tokens from Figma"
           git push
