@@ -18,6 +18,6 @@
     "figmagic": "figmagic"
   },
   "devDependencies": {
-    "figmagic": "^1.5.0"
+    "figmagic": "^4.6.0"
   }
 }
